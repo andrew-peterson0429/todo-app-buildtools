@@ -1,0 +1,19 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.card {
+  margin: .3rem;
+  /* width: 15rem; */
+}
+
+.card-body:hover {
+  cursor: pointer;
+}

@@ -1,13 +1,3 @@
-import _ from 'lodash';
-import './style.css';
-import Icon from './icon.png';
-
-
-
-const myIcon = new Image();
-myIcon.src = Icon;
-
-document.getElementById('icon').appendChild(myIcon);
 
 let todos = [
     {

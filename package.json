@@ -1,11 +1,12 @@
 {
   "name": "todo-app-buildtools",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "1.0.0",
   "description": "A todo app with buildtools for DGM3780",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -19,12 +20,7 @@
   },
   "homepage": "https://github.com/andrew-peterson0429/todo-app-buildtools#readme",
   "devDependencies": {
-    "css-loader": "^6.7.0",
-    "html-loader": "^3.1.0",
-    "html-webpack-plugin": "^5.5.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.70.0",
-    "webpack-cli": "^4.9.2"
+    "parcel": "^2.3.2"
   },
   "dependencies": {
     "lodash": "^4.17.21"
